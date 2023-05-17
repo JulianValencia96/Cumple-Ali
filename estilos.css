@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+body{
+    min-width: 500px;
+    min-height: 700px;
+    background-image: url("img/fondo.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+
+
+header{background-color:#035277f1; padding: 30px;}
+
+.tresde{
+    
+    color: #fff;
+    text-shadow: 1px 1px 0 #ccc,
+    2px 2px 0 #c9c9c9,
+    3px 3px 0 #bbb,
+    4px 4px 0 #b9b9b9,
+    5px 5px 0 #aaa,
+    6px 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    1px 1px 3px rgba(0,0,0,.3),
+    3px 3px 5px rgba(0,0,0,.2),
+    5px 5px 10px rgba(0,0,0,.25),
+    10px 10px 10px rgba(0,0,0,.2),
+    20px 20px 20px rgba(0,0,0,.15);
+
+}
+
+#comp{
+    margin-left: 100px;
+    font-size: 1.9em;
+    color:aqua;
+}
+h1{
+    padding: 30px;
+    font-style: oblique;
+    display: inline;
+}
+
+hr{
+    height: 12px;
+    border-color: #035277f1;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 8px;
+    background-color: rgb(119, 124, 151);
+}
+
+.row img, .row video{
+    width: 90%;
+    height: 500px;
+    padding: 20px 0px;
+}
+
+footer{
+   
+    width: 100%;
+    min-height: 200px;
+    border: 3px dashed cadetblue;
+    background: #C0FFEE linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.6));/*con color de fondo*/
+    font-weight: bold;
+    padding-top: 20px;
+   
+}
+
+
+.importante{
+    font-family: "impact";
+    color: brown;
+    letter-spacing: 3px;
+
+}
+
+.gracias{
+    font-style: italic;
+    color: white;
+    font-size: 1.5rem;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+#reg_click{
+    width: 170px;
+    height: 170px;
+    position:relative;
+    bottom:30px;
+    right: 30px;
+}
+#propuesta{display:none;}
+
+figcaption{color:blue;}
+
+li:nth-child(even){
+    background-color: dimgrey;
+    color:white;
+}
+li:nth-child(odd){
+    background-color:aliceblue;
+}
+@media screen and (max-width:400px) {
+    footer{text-align:justify;}
+}
